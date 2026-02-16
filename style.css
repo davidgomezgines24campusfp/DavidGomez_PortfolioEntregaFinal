@@ -9,6 +9,14 @@ body {
   background-color: #0F172A;
   color: #F1F5F9;
 }
+header {
+  width: 100%;                /* Ocupa todo el ancho de la pantalla */
+  background-color: #1E293B;  /* Color del rectángulo */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* Sombra inferior opcional */
+  position: fixed;             /* Para que quede siempre arriba */
+  top: 0;
+  z-index: 1000;
+}
 
 /* NAVBAR */
 .navbar {
