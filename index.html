@@ -17,7 +17,7 @@
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#inicio">Contact</a></li>
+        <li><a href="#contact">Contact</a></li> <!-- Changed from #inicio to #contact -->
       </ul>
       <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     </nav>
@@ -35,8 +35,8 @@
       Passionate about my work, professional and meticulous.
       I enjoy teamwork and creating things together that help us grow.
     </p>
-    <p style="color:blue;">david.gomezgines.ts@gmail.com(profesional)</p>
-    <a href="www.linkedin.com/in/david-gomez-gines-51a742373" style="color: white;">Linkedin</a>
+    <p style="color:blue;">david.gomezgines.ts@gmail.com (profesional)</p> <!-- Added space -->
+    <a href="https://www.linkedin.com/in/david-gomez-gines-51a742373" class="linkedin-link">LinkedIn</a> <!-- Fixed URL and added class -->
   </section>
 
   <!-- EXPERIENCE -->
@@ -44,61 +44,63 @@
     <h2>Experience</h2>
     <div class="experience-grid">
 
-       <div class="card">
+      <div class="card">
         <h3>Freelance Artist</h3>
         <h2>2018-2024</h2>
-        <p>Illustrations and logotipes for others.
-        </p>
-         <h2>Personal work</h2>
-         <a href="https://linktr.ee/Dvizark" style="color: white;>Dvizark</a>
+        <p>Illustrations and logotypes for others.</p> <!-- Fixed typo: logotipes → logotypes -->
+        <h2>Personal work</h2>
+        <a href="https://linktr.ee/Dvizark" class="card-link">Dvizark</a> <!-- Fixed missing quote and added class -->
       </div>
 
       <div class="card">
         <h3>Comic Artist</h3>
         <h2>2020-Currently</h2>
-        <p>Comic book artist, flatter, colorist, and letterer, for personal and client projects.
-        </p>
+        <p>Comic book artist, flatter, colorist, and letterer, for personal and client projects.</p>
         <h2>Personal work</h2>
-        <a href="https://dvizark.gumroad.com/l/TheWishofZvid?layout=profile" style="color: white;>The wish of Vzid</a>
+        <a href="https://dvizark.gumroad.com/l/TheWishofZvid?layout=profile" class="card-link">The wish of Vzid</a> <!-- Fixed missing quote and added class -->
       </div>
     </div>
   </section>
 
-   <!-- PROjECTS -->
+  <!-- PROJECTS -->
   <section id="projects">
     <h2>My projects</h2>
     <div class="projects-grid">
       
       <div class="card">
         <h3>Bone Path</h3>
-        <h4>WIP(work in progress)</h4>
-        <p> An adventure and platform video game developed by Goblin Party, 
-          a small indie video game company founded by colleagues of from CampusFP
-        </p>
+        <h4>WIP (work in progress)</h4> <!-- Added space -->
+        <p>An adventure and platform video game developed by Goblin Party, 
+          a small indie video game company founded by colleagues from CampusFP.</p> <!-- Fixed typo: of → from, added period -->
       </div>
 
       <div class="card">
         <h3>Allergic Overdoze</h3>
-        <h4>WIP(work in progress)</h4>
+        <h4>WIP (work in progress)</h4> <!-- Added space -->
         <p>Doom-style shooter developed by Alejandro Cruz and David Gomez.
           This year allergies are hitting hard, but you and your friends are up
-          to your eyeballs of science fictio! and antihistamines...</p>
+          to your eyeballs of science fiction! and antihistamines...</p> <!-- Fixed typo: fictio → fiction -->
       </div>
     </div>
   </section>
 
-   <!-- SKILLS -->
+  <!-- SKILLS -->
   <section id="skills">
-   <h2>Art Programs</h2>
-   <p> Maya, Blender, Photoshot, Illustrator, Animate, After Effects, Premier.
-   </p>
-    <h2>Programing Lenguages</h2>
-   <p> C#
-   </p>
-    <h2>Game Engines </h2>
-   <p> Unity, Godot and Unreal Engine.
-   </p>
-    </div>
+    <h2>Art Programs</h2>
+    <p>Maya, Blender, Photoshop, Illustrator, Animate, After Effects, Premiere.</p> <!-- Fixed typo: Photoshot → Photoshop, Premier → Premiere -->
+    
+    <h2>Programming Languages</h2> <!-- Fixed typo: Lenguages → Languages -->
+    <p>C#</p>
+    
+    <h2>Game Engines</h2>
+    <p>Unity, Godot and Unreal Engine.</p>
+  </section>
+
+  <!-- CONTACT SECTION (add this if you want the Contact link to work) -->
+  <section id="contact" style="padding: 60px 20px; text-align: center;">
+    <h2>Contact</h2>
+    <p>david.gomezgines.ts@gmail.com</p>
+    <a href="https://www.linkedin.com/in/david-gomez-gines-51a742373" class="linkedin-link">LinkedIn</a>
   </section>
 
   <script src="script.js"></script>
