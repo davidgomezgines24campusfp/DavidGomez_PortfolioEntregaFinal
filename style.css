@@ -53,10 +53,32 @@ header {
   cursor: pointer;
 }
 
-/* HERO */
-.hero {
+/* SECCIÓN INICIO / HERO */
+#inicio, .Inicio {
   text-align: center;
-  padding: 80px 20px;
+  padding: 120px 20px 60px; /* padding-top grande por navbar fija */
+}
+
+#inicio img, .Inicio img {
+  width: 150px;           /* tamaño fijo */
+  height: 150px;
+  object-fit: cover;       /* evita que se deforme */
+  border-radius: 50%;      /* círculo */
+  margin-bottom: 20px;
+}
+
+#inicio h2, .Inicio h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+#inicio p, .Inicio p {
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 .hero img {
