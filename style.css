@@ -35,6 +35,7 @@ header {
 
 .nav-links li {
   display: inline-block;  /* Asegura que los li estén en línea */
+}
 
 .nav-links a {
   text-decoration: none;
