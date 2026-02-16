@@ -163,6 +163,13 @@ header {
   border-radius: 6px;
   cursor: pointer;
 }
+
+/* SKILLS */
+#skills {
+  padding: 60px 20px;
+  text-align: center;
+}
+
 /* RESPONSIVE */
 @media (max-width: 800px) {
   /* Navbar móvil */
@@ -184,6 +191,87 @@ header {
   .menu-toggle {
     display: block;
   }
+
+  /* Link styles */
+.linkedin-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: #0077b5; /* LinkedIn blue */
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.linkedin-link:hover {
+  background-color: #005582;
+}
+
+.card-link {
+  color: #38BDF8; /* Light blue for better visibility on dark background */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+  color: #7dd3fc;
+}
+
+/* Email style */
+.email {
+  color: white;
+  font-weight: bold;
+  margin: 20px auto;
+}
+
+/* Skills section spacing */
+#skills h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#skills h2:first-child {
+  margin-top: 0;
+}
+
+#skills p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Fix for duplicate card definition */
+.card {
+  background: #1E293B;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Add some space between cards */
+}
+
+/* Ensure links in cards are visible */
+.card a {
+  color: #38BDF8;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Contact section */
+#contact {
+  background-color: #1E293B;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+#contact p {
+  margin-bottom: 15px;
+}
 
   /* Grid móvil */
   .projects-grid {
