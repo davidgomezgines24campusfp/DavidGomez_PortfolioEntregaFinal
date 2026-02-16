@@ -29,13 +29,21 @@ header {
 
 .nav-links {
   list-style: none;
-  display: flex;
-  gap: 20px;
+  display: flex;          /* Horizontal */
+  gap: 20px;              /* Espacio entre links */
 }
+
+.nav-links li {
+  display: inline-block;  /* Asegura que los li estén en línea */
 
 .nav-links a {
   text-decoration: none;
   color: #F1F5F9;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+  .nav-links a:hover {
+  color: #38BDF8;         /* Color al pasar el mouse */
 }
 
 .menu-toggle {
@@ -127,8 +135,8 @@ header {
   }
 
   .nav-links {
-    display: none;
-    flex-direction: column;
+    display: none;         /* oculto en móvil */
+    flex-direction: column; /* vertical al abrir */
     background: #1E293B;
     position: absolute;
     top: 70px;
@@ -137,11 +145,11 @@ header {
     padding: 20px;
   }
 
-  .menu-toggle {
-    display: block;
+  .nav-links.active {
+    display: flex;         /* cuando se abre menú hamburguesa */
   }
 
-  .nav-links.active {
-    display: flex;
+  .menu-toggle {
+    display: block;        /* el ☰ solo aparece en móvil */
   }
 }
