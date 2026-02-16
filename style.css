@@ -94,8 +94,8 @@ header {
   border-radius: 8px;
 }
 
-/* PROYECTOS */
-#proyectos {
+/* PROjECTS */
+#projects {
   padding: 60px 20px;
   text-align: center;
 }
@@ -128,28 +128,6 @@ header {
   border-radius: 6px;
   cursor: pointer;
 }
-
-/* CONTACTO */
-#contacto {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.contact-form {
-  max-width: 400px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 10px;
-  border-radius: 6px;
-  border: none;
-}
-
 /* RESPONSIVE */
 @media (max-width: 800px) {
   /* Navbar móvil */
