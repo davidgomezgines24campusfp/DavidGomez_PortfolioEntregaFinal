@@ -150,9 +150,9 @@ header {
 /* RESPONSIVE */
 @media (max-width: 800px) {
   .projects-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* apila vertical */
   }
-
+}
   .nav-links {
     display: none;
     flex-direction: column;
