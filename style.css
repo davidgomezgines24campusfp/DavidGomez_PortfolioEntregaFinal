@@ -1,8 +1,6 @@
-/* Add these styles to your existing CSS */
-
-/* Link styles */
+/* Link styles - ALL LINKS WHITE */
 .linkedin-link {
-  color: white;
+  color: white !important;
   text-decoration: none;
   padding: 8px 16px;
   background-color: #0077b5; /* LinkedIn blue */
@@ -13,26 +11,60 @@
 
 .linkedin-link:hover {
   background-color: #005582;
+  color: white !important;
 }
 
 .card-link {
-  color: #38BDF8; /* Light blue for better visibility on dark background */
+  color: white !important;
   text-decoration: none;
   font-weight: bold;
 }
 
 .card-link:hover {
   text-decoration: underline;
-  color: #7dd3fc;
+  color: #dddddd !important; /* Slightly off-white on hover for subtle effect */
 }
 
-/* Email style */
+/* Email style - changed to white */
 #inicio p[style*="color:blue"] {
-  color: #38BDF8 !important; /* Better blue for dark background */
+  color: white !important; /* Changed from blue to white */
   font-weight: bold;
 }
 
-/* Skills section spacing */
+/* Ensure ALL links in cards are white */
+.card a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+  color: #eeeeee !important;
+}
+
+/* Navigation links - already white, but ensuring consistency */
+.nav-links a {
+  text-decoration: none;
+  color: white !important;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.nav-links a:hover {
+  color: #cccccc !important; /* Light gray on hover instead of blue */
+}
+
+/* Contact section links */
+#contact a {
+  color: white !important;
+}
+
+/* Any other links that might appear */
+a {
+  color: white !important;
+}
+
+/* Skills section - no changes needed */
 #skills h2 {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -52,17 +84,7 @@
   background: #1E293B;
   padding: 20px;
   border-radius: 10px;
-  margin-bottom: 20px; /* Add some space between cards */
-}
-
-/* Ensure links in cards are visible */
-.card a {
-  color: #38BDF8;
-  text-decoration: none;
-}
-
-.card a:hover {
-  text-decoration: underline;
+  margin-bottom: 20px;
 }
 
 /* Contact section */
@@ -70,6 +92,8 @@
   background-color: #1E293B;
   margin-top: 40px;
   border-radius: 10px;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 #contact h2 {
@@ -78,4 +102,5 @@
 
 #contact p {
   margin-bottom: 15px;
+  color: white;
 }
